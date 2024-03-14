@@ -1,0 +1,51 @@
+.button-code {
+  display: flex;
+  gap: 0px;
+  flex-direction: row;
+}
+.code-label {
+  border-radius: 16px 16px 0px 0px;
+  border: 3px solid var(--Black, #000);
+  background: var(--White, #fff);
+  display: inline-flex;
+  padding: 7px 20px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--Black, var(--classic, #000));
+  font-family: "Archivo Black";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.textfield {
+  position: relative;
+}
+
+.textfield input {
+  border-radius: 16px 16px 0px 0px;
+  border: 3px solid var(--Black, #000);
+  background: var(--Black, #000);
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.textfield input::placeholder {
+  color: red;
+  color: var(--White, #fff);
+  font-family: "Archivo Black";
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.ex-code {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}

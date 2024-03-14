@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -16,7 +13,7 @@
 }
 
 html {
-  font-size: 16px;
+  background-color: #eaefce;
 }
 
 body {
@@ -26,9 +23,15 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 a {
+  text-decoration: none;
   color: inherit;
 }
 

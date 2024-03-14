@@ -6,22 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <script src="js/main.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
+    <main class="l-main">
       <div class="container">
         <div class="row">
-          <div class="col-5">col 1</div>
-          <div class="col-6 offset-1">col 2</div>
+          <div class="col-5">
+            <div class="logo-title">
+              <img src="../img/logo-tatitotu.png" />
+            </div>
+          </div>
+          <div class="col-6 offset-1">
+            <form class="ex-code">
+              <div class="button-code">
+                <label for="code" class="code-label"> charger mon défi </label>
+                <div class="textfield">
+                  <input
+                    type="code"
+                    id="code"
+                    name="code"
+                    class="code-input"
+                    placeholder="code à 8 chiffres"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="row">
-          <div class="col-12">col 3</div>
+          <div class="col-6">
+            <div class="button-exercice">
+              <div class="button-ex button-option">
+                <a
+                  href="https://www.canva.com/fr_fr/modeles/EAEhAEyayUw-mariage-borde-minimaliste-menu/"
+                >
+                  <p class="exercer">exercer</p>
+                </a>
+              </div>
+              <div class="button-ex button-option button-ex-color">
+                <a
+                  href="https://www.canva.com/fr_fr/modeles/EAEhAEyayUw-mariage-borde-minimaliste-menu/"
+                >
+                  <p class="imorimer">imprimer</p>
+                </a>
+              </div>
+              <div class="button-ex button-option">
+                <a
+                  href="https://www.canva.com/fr_fr/modeles/EAEhAEyayUw-mariage-borde-minimaliste-menu/"
+                >
+                  <p class="sauvegarder">sauvegarder</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 offset-3">
+            <div class="button-help">
+              <div class="button-info">
+                <a
+                  href="https://www.canva.com/fr_fr/modeles/EAEhAEyayUw-mariage-borde-minimaliste-menu/"
+                >
+                  <p class="aide">aide</p>
+                </a>
+              </div>
+              <div class="button-info">
+                <a
+                  href="https://www.canva.com/fr_fr/modeles/EAEhAEyayUw-mariage-borde-minimaliste-menu/"
+                >
+                  <p class="admin">admin</p>
+                </a>
+            </div>
+          </div>
         </div>
         <div class="row">
-          <div class="col-6">col 4</div>
-        </div>
-        <div class="row">
-          <div class="col-10 offset-1">col 5</div>
+          <div class="col-10 offset-1">
+            <div class="classes">
+              <div class="classes-button">
+                <div class="section">
+                  <label for="classes"></label>
+                  <div class="classes-select">5H <img src="../img/vector-arrow.png"> </div>
+                  <!-- <select id="classes" name="classes">
+                    <option value="all">5P</span></option>
+                    <option value="all">Tous <span class="number">23</span></option>
+                    <option value="all">1 verbe au hasard</span></option>
+                    <option value="all">5 verbes au hasard</span></option>
+                    <option value="all">10 verbes au hasard</span></option>
+                  </select> -->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-6">col 6</div>
