@@ -1,0 +1,31 @@
+.card {
+  border-radius: 36px;
+  border: 3px solid var(--classic, #000);
+  background: var(--lila, #ddd1fa);
+  box-shadow: 10px 10px 0px 0px #000;
+
+  margin-top: 83px;
+}
+
+.down-card {
+  border-radius: 36px;
+  padding-top: 40px;
+  background: var(--creme, #fffef1);
+  border-top: 3px solid black;
+  color: var(--Black, var(--classic, #000));
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  color: var(--Black, var(--classic, #000));
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Archivo Black";
+  font-size: 30px;
+  padding-top: 26px;
+  padding-bottom: 12px;
+}

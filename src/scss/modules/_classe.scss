@@ -11,7 +11,7 @@
 .classes {
   margin-left: 20px;
   margin-right: 20px;
-  padding: 30px 60px;
+  padding: 20px 60px;
   flex-shrink: 0;
   border-radius: 36px 36px 0px 0px;
   border: 3px solid var(--classic, #000);
@@ -19,17 +19,29 @@
   box-shadow: 7px 10px 0px 0px #000;
   margin-top: 40px;
   display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .classes-select {
   display: inline-flex;
   padding: 6px 14px;
+  margin-right: 20px;
   align-items: center;
   gap: 5px;
-  border-radius: 16px;
+  border-radius: 10px;
   border: 2px solid var(--classic, #000);
   background: var(--creme, #fffef1);
   box-shadow: 2px 2px 0px 0px #000;
+  color: var(--Black, var(--classic, #000));
+  font-family: Archivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
 }
 
 .classes-select img {
