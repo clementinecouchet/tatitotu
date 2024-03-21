@@ -3,21 +3,22 @@
   padding: 10px 16px;
   border-radius: 14px;
   border: 3px solid var(--Black, #000);
+  background: var(--creme, #fffef1);
 }
 
 .button-add-verb ::placeholder {
+  color: black;
 }
 
 .first-box-v {
   display: flex;
   gap: 140px;
-  justify-content: center;
 }
 
 .delete-verb {
   color: var(--Black, var(--classic, #000));
   font-family: Archivo;
-  font-size: 15px;
+  font-size: 17px;
   text-decoration-line: underline;
 }
 .button-add-verb input {
@@ -28,4 +29,30 @@
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.verb-select {
+  display: flex;
+  padding: 11px 15px;
+  gap: 6px;
+  border-radius: 13px;
+  border: 2px solid var(--Black, #000);
+  background: var(--violet, #ddd1fa);
+  font-family: Archivo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cross {
+  width: 14.662px;
+  height: 14.662px;
+}
+
+.second-box-v {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-top: 23px;
 }

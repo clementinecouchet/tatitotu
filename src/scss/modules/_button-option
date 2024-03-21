@@ -1,0 +1,31 @@
+.switch-wrapper {
+  display: inline-block; /* pour que le div soit à côté du texte */
+  width: 53.815px;
+  height: 29px;
+  padding: 2px;
+  border-radius: 100px;
+  background: #fffef1;
+  border: 2px solid black;
+  margin-right: 12px;
+}
+
+/* le rond qui se déplace */
+.switch-inner {
+  width: 22px;
+  height: 22px;
+  border-radius: 80px;
+  background: rgb(0, 0, 0);
+  transition: margin-left 0.3s;
+}
+input:checked + .switch-wrapper .switch-inner {
+  margin-left: 24px;
+  background: #000000;
+}
+
+input:checked + .switch-wrapper {
+  background: #c6d739;
+}
+
+.switch input {
+  display: none;
+}

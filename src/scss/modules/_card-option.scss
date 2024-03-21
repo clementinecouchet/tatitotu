@@ -1,0 +1,42 @@
+.first-box-o {
+  display: flex;
+  gap: 190px;
+}
+
+.option-select {
+  display: inline-flex;
+  padding: 11px 14px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 13px;
+  border: 2px solid var(--classic, #000);
+  background: var(--creme, #fffef1);
+  box-shadow: 2px 2px 0px 0px #000;
+  color: var(--Black, var(--classic, #000));
+  font-family: Archivo;
+  font-size: 16px;
+}
+
+.arrow-option {
+  width: 14px;
+  height: 10px;
+  flex-shrink: 0;
+}
+
+.text-option {
+  color: var(--Black, var(--classic, #000));
+  align-items: center;
+  font-family: Archivo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+hr {
+  border: 2.7px solid black;
+  margin: 30px 0 30px 0;
+}
