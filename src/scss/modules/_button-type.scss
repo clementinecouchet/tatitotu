@@ -16,11 +16,9 @@
 
 input:checked + .button-type-item {
   display: flex;
-  padding: 11px 17px;
+  padding: 11px 10px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
   background: var(--green, #c6d739);
   border-radius: 12px;
   border: 2px solid var(--classic, #000);
@@ -28,7 +26,6 @@ input:checked + .button-type-item {
   text-align: center;
   font-family: Archivo;
   font-size: 16px;
-  border-right: none;
 }
 
 .button-type input {
@@ -37,4 +34,17 @@ input:checked + .button-type-item {
 
 .type-button {
   display: flex;
+}
+
+.button-normal {
+  position: absolute;
+}
+
+.button-normal:checked {
+  position: absolute;
+}
+
+.button-type-mode {
+  margin-left: 54px;
+  padding-left: 35px;
 }
