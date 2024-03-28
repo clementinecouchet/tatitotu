@@ -33,3 +33,14 @@ input:checked + .switch-wrapper-v {
 .switch-v {
   margin-bottom: 12px;
 }
+
+.time-right {
+  flex-direction: row;
+  justify-content: end;
+  display: flex;
+}
+
+.times {
+  display: flex;
+  padding-bottom: 15px;
+}
