@@ -2,7 +2,7 @@
   display: inline-flex;
   padding: 10px 16px;
   border-radius: 14px;
-  border: 3px solid var(--Black, #000);
+  border: 2px solid var(--Black, #000);
   background: var(--creme, #fffef1);
 }
 
@@ -12,15 +12,16 @@
 
 .first-box-v {
   display: flex;
-  gap: 140px;
+  justify-content: space-between;
 }
 
 .delete-verb {
   color: var(--Black, var(--classic, #000));
   font-family: Archivo;
-  font-size: 17px;
+  font-size: 12px;
   text-decoration-line: underline;
 }
+
 .button-add-verb input {
   background: var(--creme, #fffef1);
   border: none;
@@ -33,21 +34,22 @@
 
 .verb-select {
   display: flex;
-  padding: 11px 15px;
-  gap: 6px;
+  padding: 10px 10px;
+  justify-content: space-betweens;
   border-radius: 13px;
   border: 2px solid var(--Black, #000);
   background: var(--violet, #ddd1fa);
   font-family: Archivo;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  gap: 3px;
 }
 
 .cross {
-  width: 14.662px;
-  height: 14.662px;
+  width: 10px;
+  height: 10px;
 }
 
 .second-box-v {

@@ -5,7 +5,8 @@
   box-shadow: 10px 10px 0px 0px #000;
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: 95px;
+  margin-top: 55px;
+  padding-bottom: 40px;
 }
 
 .card-option-times {
@@ -13,8 +14,8 @@
   border: 3px solid var(--classic, #000);
   background: var(--creme, #fffef1);
   padding: 20px 30px;
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .verb-selection {
@@ -25,12 +26,12 @@
 h3 {
   color: var(--Black, var(--classic, #000));
   font-family: "Archivo Black";
-  font-size: 35px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 31px;
-  margin-bottom: 35px;
+  margin-top: 21px;
+  margin-bottom: 25px;
   margin-left: -15px;
 }
