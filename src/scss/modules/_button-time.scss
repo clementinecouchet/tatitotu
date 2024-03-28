@@ -1,0 +1,35 @@
+.switch-wrapper-v {
+  display: inline-block; /* pour que le div soit à côté du texte */
+  width: 53.815px;
+  height: 29px;
+  padding: 2px;
+  border-radius: 100px;
+  background: #fffef1;
+  border: 2px solid black;
+  margin-right: 12px;
+}
+
+/* le rond qui se déplace */
+.switch-inner-v {
+  width: 22px;
+  height: 22px;
+  border-radius: 80px;
+  background: rgb(0, 0, 0);
+  transition: margin-left 0.3s;
+}
+input:checked + .switch-wrapper-v .switch-inner-v {
+  margin-left: 24px;
+  background: #000000;
+}
+
+input:checked + .switch-wrapper-v {
+  background: #eba7a9;
+}
+
+.switch-v input {
+  display: none;
+}
+
+.switch-v {
+  margin-bottom: 12px;
+}

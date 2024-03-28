@@ -1,0 +1,21 @@
+.vector-infos {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.option-time {
+  display: flex;
+  flex-direction: rows;
+  gap: 38px;
+}
+
+h4 {
+  color: var(--Black, var(--classic, #000));
+  text-align: center;
+  font-family: Archivo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
