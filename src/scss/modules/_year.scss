@@ -49,6 +49,15 @@
   align-items: center;
 }
 
+.menu-top-big {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
 .button-number {
   border-radius: 15px;
   padding: 5px 10px;
@@ -57,4 +66,19 @@
   color: var(--Black, var(--classic, #000));
   font-family: Archivo;
   font-size: 10.473px;
+}
+
+.menu-top-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 0;
+}
+
+.menu-top-button p:first-child {
+  padding-right: 5px;
+}
+
+.menu-bottom-text p:first-child {
+  padding-bottom: 7px;
 }
