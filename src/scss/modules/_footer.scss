@@ -1,0 +1,25 @@
+h5 {
+  color: var(--Black, var(--classic, #000));
+  text-align: center;
+
+  /* TITLE */
+  font-family: "Archivo Black";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+
+.footer-info {
+  color: var(--Black, var(--classic, #000));
+  text-align: center;
+
+  /* base-option */
+  font-family: Archivo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
