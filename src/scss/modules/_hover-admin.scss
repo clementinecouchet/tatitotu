@@ -4,8 +4,8 @@
 
 .admin-info .choice-admin {
   position: absolute;
-  top: -2;
-  left: -2;
+  top: -1;
+  left: -1;
   opacity: 0;
   z-index: 4;
   pointer-events: none;
@@ -29,4 +29,26 @@
   overflow: hidden;
   height: 0;
   transition: all 120ms ease-out;
+}
+
+.button-admin-verb {
+  display: inline-flex;
+  padding: 5px 5px;
+  border-radius: 12px;
+  border: 2px solid var(--Black, #000);
+  background: var(--creme, #fffef1);
+}
+
+.button-admin-verb ::placeholder {
+  color: black;
+}
+
+.button-admin-verb input {
+  background: var(--creme, #fffef1);
+  border: none;
+  color: var(--Black, var(--classic, #000));
+  font-family: Archivo;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
 }

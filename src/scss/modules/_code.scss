@@ -34,7 +34,6 @@
 }
 
 .textfield input::placeholder {
-  color: red;
   color: var(--White, #fff);
   font-family: "Archivo Black";
   font-size: 12.5px;
@@ -42,6 +41,10 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.code-label:hover {
+  background-color: #eba7a9;
 }
 
 .ex-code {
