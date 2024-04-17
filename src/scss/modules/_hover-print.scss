@@ -1,0 +1,32 @@
+.imprimer-info {
+  position: relative;
+}
+
+.imprimer-info .choice-print {
+  position: absolute;
+  top: -2;
+  left: -2;
+  opacity: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.imprimer-info:hover .choice-print {
+  opacity: 1;
+  pointer-events: all;
+  height: auto;
+}
+
+.choice-print {
+  border-radius: 16px;
+  border: 2px solid var(--classic, #000);
+  background: var(--creme, #fffef1);
+  color: var(--Black, var(--classic, #000));
+  text-align: left;
+  flex-direction: column;
+  padding: 23px;
+  box-shadow: 1px 1px #000;
+  overflow: hidden;
+  height: 0;
+  transition: all 120ms ease-out;
+}

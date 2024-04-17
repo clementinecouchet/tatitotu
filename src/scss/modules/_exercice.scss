@@ -23,7 +23,7 @@
   background: var(--creme, #fffef1);
   text-align: left;
   flex-direction: column;
-  padding: 15px;
+  padding: 18px 23px 100px 23px;
   box-shadow: 1px 1px #000;
   overflow: hidden;
   height: 0;
@@ -40,8 +40,8 @@
   justify-content: left;
   text-align: right;
   position: absolute;
-  top: 15;
-  right: 15;
+  top: 17;
+  right: 19;
 }
 
 .block-progression {
