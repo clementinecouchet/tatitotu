@@ -1,0 +1,38 @@
+.button-ex-verb {
+  display: inline-flex;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 2px solid var(--Black, #000);
+  background: var(--creme, #fffef1);
+  margin-left: 30%;
+  width: calc(40vw - 50px);
+}
+
+.button-ex-verb ::placeholder {
+  color: black;
+  justify-content: center;
+}
+
+.button-ex-verb input {
+  background: var(--creme, #fffef1);
+  border: none;
+  color: var(--Black, var(--classic, #000));
+  font-family: Archivo;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-verification input {
+  border: 2px solid var(--Black, #000);
+  background: var(--violet, #ddd1fa);
+  box-shadow: 2px 2px 0px 0px #000;
+}
+
+.button-verification input {
+  background: var(--violet, #ddd1fa);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+
+  border-radius: 14px;
+}
