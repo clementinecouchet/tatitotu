@@ -27,3 +27,10 @@ h5 {
 .footer-info:hover {
   color: #eba7a9;
 }
+
+.fleche {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  transform: rotate(180deg);
+}

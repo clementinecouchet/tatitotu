@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-5">
-            <div class="logo-title">
+            <div class="logo-title" id="#header">
               <img src="../img/logo-tatitotu.png" />
             </div>
           </div>
@@ -132,9 +132,7 @@
           <div class="col-3 offset-3">
             <div class="button-help">
               <div class="button-info">
-                <a
-                  href="https://www.canva.com/fr_fr/modeles/EAEhAEyayUw-mariage-borde-minimaliste-menu/"
-                >
+                <a href="https://conjugaison.tatitotu.ch/accueil">
                   <p class="aide">aide</p>
                 </a>
               </div>
@@ -391,12 +389,13 @@
                         <label for="add-verb" class="add-verb-label"></label>
                         <div class="add">
                           <input
-                            type="verb"
+                            type="text"
                             id="verb"
                             name="verb"
-                            class="verb-input"
+                            class="textfield autocomplete"
                             placeholder="ajoutez un verbe"
                           />
+                          <div class="suggestions"></div>
                         </div>
                       </div>
                     </form>
@@ -485,25 +484,33 @@
                 <h2>mes verbes</h2>
                 <div class="card-option-times">
                   <div class="verb-selection">
-                    <p class="delete-verb">Tout cocher</p>
-                    <p class="delete-verb">Tout décocher</p>
+                    <div class="delete-verb check-all">Tout cocher</div>
+                    <div class="delete-verb un-check-all">Tout décocher</div>
                   </div>
                   <h3>indicatif</h3>
                   <div class="row">
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Je mange</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -522,17 +529,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : J'ai mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -541,17 +556,25 @@
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Je mangeais</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -570,17 +593,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : J'avais mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -589,17 +620,25 @@
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Je mangerai</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -618,17 +657,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : J'aurai mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -637,17 +684,25 @@
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Je mangeai</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -666,17 +721,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : J'eus mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -684,25 +747,33 @@
                 </div>
                 <div class="card-option-times">
                   <div class="verb-selection">
-                    <p class="delete-verb">Tout cocher</p>
-                    <p class="delete-verb">Tout décocher</p>
+                    <div class="delete-verb check-all">Tout cocher</div>
+                    <p class="delete-verb un-check-all">Tout décocher</p>
                   </div>
                   <h3>Impératif</h3>
                   <div class="row">
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Mange !</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -721,17 +792,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Aie mangé !</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -739,25 +818,33 @@
                 </div>
                 <div class="card-option-times">
                   <div class="verb-selection">
-                    <p class="delete-verb">Tout cocher</p>
-                    <p class="delete-verb">Tout décocher</p>
+                    <div class="delete-verb check-all">Tout cocher</div>
+                    <p class="delete-verb un-check-all">Tout décocher</p>
                   </div>
                   <h3>Subjonctif</h3>
                   <div class="row">
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Que je mange</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -776,34 +863,50 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Que j'ai mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Que je mangeasse</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -822,17 +925,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Que j'eusse mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -840,25 +951,33 @@
                 </div>
                 <div class="card-option-times">
                   <div class="verb-selection">
-                    <p class="delete-verb">Tout cocher</p>
-                    <p class="delete-verb">Tout décocher</p>
+                    <div class="delete-verb check-all">Tout cocher</div>
+                    <p class="delete-verb un-check-all">Tout décocher</p>
                   </div>
                   <h3>conditionnel</h3>
                   <div class="row">
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Je mangerais</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -872,17 +991,25 @@
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : J'aurai mangé</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -901,17 +1028,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : J'eusse mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -919,25 +1054,33 @@
                 </div>
                 <div class="card-option-times">
                   <div class="verb-selection">
-                    <p class="delete-verb">Tout cocher</p>
-                    <p class="delete-verb">Tout décocher</p>
+                    <div class="delete-verb check-all">Tout cocher</div>
+                    <p class="delete-verb un-check-all">Tout décocher</p>
                   </div>
                   <h3>participe</h3>
                   <div class="row">
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Mangeant</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -956,17 +1099,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : Mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -974,25 +1125,33 @@
                 </div>
                 <div class="card-option-times">
                   <div class="verb-selection">
-                    <p class="delete-verb">Tout cocher</p>
-                    <p class="delete-verb">Tout décocher</p>
+                    <div class="delete-verb check-all">Tout cocher</div>
+                    <p class="delete-verb un-check-all">Tout décocher</p>
                   </div>
                   <h3>gérondif</h3>
                   <div class="row">
                     <div class="times">
                       <div class="col-6">
                         <div class="option-time time-left">
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : En mangeant</p>
+                              </div>
+                            </div>
+                          </div>
                           <form class="button-verb">
                             <label class="switch-v">
                               <input
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
@@ -1011,17 +1170,25 @@
                                 type="checkbox"
                                 name="mode"
                                 value="general"
+                                class="checkbox"
                               />
                               <div class="switch-wrapper-v">
                                 <div class="switch-inner-v"></div>
                               </div>
                             </label>
                           </form>
-                          <img
-                            class="vector-infos"
-                            src="../img/vector-infos.png"
-                            alt="infos"
-                          />
+                          <div class="classes-infos">
+                            <img
+                              class="vector-infos"
+                              src="../img/vector-infos.png"
+                              alt="infos"
+                            />
+                            <div class="classes-icone">
+                              <div class="help-infos">
+                                <p>Exemple : En ayant mangé</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1042,6 +1209,11 @@
               <p class="footer-info">christophe.roulet@edu-vd.ch</p>
             </a>
           </div>
+          <a href="header">
+            <div class="fleche">
+              <img src="../img/vector-arrow.png" />
+            </div>
+          </a>
         </div>
       </div>
     </footer>

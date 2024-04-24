@@ -48,6 +48,10 @@
   align-items: center;
 }
 
+.verb-select:hover {
+  background-color: #ad8df8;
+}
+
 .cross {
   width: 10px;
   height: 10px;
@@ -58,4 +62,8 @@
   flex-wrap: wrap;
   gap: 5px;
   padding-top: 23px;
+}
+
+input {
+  outline: none;
 }
